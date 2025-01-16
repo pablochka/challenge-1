@@ -53,9 +53,8 @@ button {
   border-radius: 28px;
   position: absolute;
   font-family: "Fraunces", serif;
-
   border: none;
-  top: 37px;
+  top: 33px;
 
   font-size: 15px;
 }
@@ -143,8 +142,6 @@ h6 {
   font-size: 15px;
 }
 .thirdphotos-container {
-  display: flex;
-  justify-content: flex-end;
 }
 .alublebis-container {
   width: 720px;
@@ -153,7 +150,22 @@ h6 {
   top: 2001px;
   background-image: url(img/alublebi.png);
 }
-.mandarinis-container {
-  background-image: url(mandarini.png);
-  padding-top: 2400px;
+strong {
+  color: rgba(36, 85, 74, 1);
+  position: absolute;
+  left: 251px;
+  top: 398px;
+  font-weight: 900;
+  font-size: 28px;
+}
+.p3-class {
+  position: absolute;
+  left: 191px;
+  top: 460px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  width: 339px;
+  height: 81px;
+  color: rgba(62, 116, 103, 1);
 }
