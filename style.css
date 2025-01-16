@@ -56,17 +56,18 @@ button {
   font-family: "Fraunces", serif;
   border: none;
   top: 33px;
-
   font-size: 15px;
 }
 h2 {
   font-family: "Fraunces", serif;
   font-size: 56px;
+  position: absolute;
   display: flex;
+  top: 195px;
   text-align: center;
   justify-content: center;
   color: rgba(255, 255, 255, 1);
-  margin-top: 195px;
+  padding-left: 361.5px;
 }
 .whitephotoandegg-container {
   display: flex;
