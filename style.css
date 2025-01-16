@@ -67,6 +67,10 @@ h2 {
   color: rgba(255, 255, 255, 1);
   margin-top: 195px;
 }
+.whitephotoandegg-container {
+  display: flex;
+  position: relative;
+}
 .eggphoto-class {
   position: relative;
   left: 360px;
@@ -76,8 +80,7 @@ h2 {
   width: 720px;
   height: 600px;
   position: absolute;
-  left: 289px;
-  top: 800px;
+  right: 360px;
 }
 h3 {
   width: 490px;
@@ -142,12 +145,15 @@ h6 {
   font-size: 15px;
 }
 .thirdphotos-container {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  top: 2000px;
 }
 .alublebis-container {
   width: 720px;
   height: 600px;
-  position: absolute;
-  top: 2001px;
+  position: relative;
   background-image: url(img/alublebi.png);
 }
 strong {
@@ -168,4 +174,35 @@ strong {
   width: 339px;
   height: 81px;
   color: rgba(62, 116, 103, 1);
+  text-align: center;
+}
+.mandarini-class {
+  background-image: url(img/mandarini.png);
+  width: 720px;
+  order: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+b {
+  color: rgba(5, 44, 59, 1);
+  width: 187px;
+  height: 35px;
+  font-weight: 900;
+  position: absolute;
+  font-size: 28px;
+  top: 398px;
+  font-family: "Fraunces", serif;
+  left: 987.5px;
+}
+.p4-class {
+  position: absolute;
+  left: 911px;
+  top: 460px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  width: 339px;
+  height: 81px;
+  color: rgba(25, 83, 108, 1);
+  text-align: center;
 }
