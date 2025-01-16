@@ -206,3 +206,48 @@ b {
   color: rgba(25, 83, 108, 1);
   text-align: center;
 }
+.CLIENTTESTIMONIALS-class {
+  background-color: white;
+  width: 1440px;
+  height: 777px;
+  position: absolute;
+  top: 2603px;
+  font-family: "Fraunces", serif;
+  padding-top: 160px;
+  padding-left: 548px;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgba(167, 170, 173, 1);
+}
+.firstphotoClass {
+  position: absolute;
+  left: 304px;
+  top: 266px;
+}
+.writtingClass {
+  text-align: center;
+  width: 350px;
+  height: 96px;
+  font-family: "Barlow", sans-serif;
+  color: rgba(91, 99, 109, 1);
+  position: absolute;
+  left: 165px;
+  top: 396px;
+}
+.EmilyClass {
+}
+h1 {
+  padding-top: 69px;
+  color: rgba(36, 48, 62, 1);
+  font-family: "Fraunces", serif;
+}
+.MarketingClass {
+  padding-top: 9px;
+  color: rgba(167, 170, 173, 1);
+  font-family: "Barlow", sans-serif;
+}
+.secondphotoClass {
+  position: absolute;
+  top: 266px;
+  left: 519px;
+}
