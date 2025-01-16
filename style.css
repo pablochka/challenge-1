@@ -16,13 +16,14 @@ body {
   width: 1440px;
   height: 800px;
 }
+.isarikoClass {
+  padding-left: 705px;
+  padding-top: 360.54px;
+}
 .sunnyside-class {
-  /* width: 170px;
-  height: 33px;
-  color: #ffffff; */
-  /* */
-  padding-top: 46px;
-  padding-left: 40px;
+  position: relative;
+  top: 46px;
+  left: -715px;
 }
 header {
   display: flex;
@@ -317,4 +318,45 @@ h1 {
   font-size: 24x;
   font-weight: 600;
   color: rgba(167, 170, 173, 1);
+}
+.coloredClass {
+  position: absolute;
+  top: 3380px;
+  display: flex;
+}
+footer {
+  background-color: rgba(144, 212, 198, 1);
+  width: 1440px;
+  height: 350px;
+  position: absolute;
+  top: 3827.5px;
+}
+.sunnysideContainer {
+  position: absolute;
+  top: 72px;
+  left: 629px;
+}
+footer a {
+  color: rgba(69, 141, 126, 1);
+}
+footer ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 57px;
+  position: absolute;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  top: 145px;
+  left: 572px;
+}
+.logos-Class ul li a img {
+  position: absolute;
+  top: 88px;
+  width: 88px;
+  height: 20px;
+}
+.logos-Class {
+  position: absolute;
+  left: 24px;
 }
