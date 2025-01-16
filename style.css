@@ -7,12 +7,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: rgb(255, 252, 248, 1); */
+  background-color: rgba(255, 252, 248, 1);
+  flex-direction: column;
 }
 .background-container {
   background-image: url(img/mainphoto.png);
   width: 1440px;
   height: 800px;
-  margin-top: 12px;
 }
 .sunnyside-class {
   /* width: 170px;
@@ -53,7 +55,105 @@ button {
   font-family: "Fraunces", serif;
 
   border: none;
-  top: 39px;
+  top: 37px;
 
   font-size: 15px;
+}
+h2 {
+  font-family: "Fraunces", serif;
+  font-size: 56px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 195px;
+}
+.eggphoto-class {
+  position: relative;
+  left: 360px;
+}
+.whitephoto-class {
+  background-color: white;
+  width: 720px;
+  height: 600px;
+  position: absolute;
+  left: 289px;
+  top: 800px;
+}
+h3 {
+  width: 490px;
+  height: 98px;
+  padding-left: 165px;
+  padding-top: 158px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+}
+p {
+  font-family: "Barlow", sans-serif;
+  padding-top: 130px;
+  padding-left: 165px;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(128, 131, 151, 1);
+  width: 612px;
+}
+h4 {
+  padding-top: 40px;
+  padding-left: 165.5px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 15px;
+}
+.whitephoto2-class {
+  background-color: white;
+  width: 720px;
+  height: 600px;
+}
+.letstryflex-container {
+  display: flex;
+  position: absolute;
+  top: 1401px;
+}
+h5 {
+  width: 600px;
+  height: 98px;
+  padding-left: 165px;
+  padding-top: 158px;
+  font-size: 40px;
+
+  text-align: left;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+}
+.p2-class {
+  font-family: "Barlow", sans-serif;
+  padding-top: 130px;
+  padding-left: 165px;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(128, 131, 151, 1);
+  width: 612px;
+}
+h6 {
+  padding-top: 40px;
+  padding-left: 165.5px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 15px;
+}
+.thirdphotos-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.alublebis-container {
+  width: 720px;
+  height: 600px;
+  position: absolute;
+  top: 2001px;
+  background-image: url(img/alublebi.png);
+}
+.mandarinis-container {
+  background-image: url(mandarini.png);
+  padding-top: 2400px;
 }
